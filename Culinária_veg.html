@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sua cozinha-veg</title>
+ <link rel="icon" type="image/x-icon" href="./favicon-32x32.png"> 
+ <meta charset="UTF-8"/>
+ 
+
+ <link rel="stylesheet" type="text/css" href="./stylecss.css">
+
+</head>
+
+<body>
+    <!--Barra de navegação superior-->
+    <ul class="container1">
+        <a class="link"><li>Podcast</li></a><br>
+        <a class="link"><li>Youtube</li></a><br>
+        <a class="link"><li>Instagram</li></a><br>
+        <a class="link"><li>Outros canais</li></a><br>
+      </ul>
+    
+    <!--imagem topo esquerdo, href para a página principal-->
+    <div class="imgtop">
+        <a href="file:///home/chronos/u-7b3e2eb73e83e83eee864b1d773489c4e55cec64/MyFiles/Downloads/html_css/Culin%C3%A1ria.html#tabela"> <img  src="https://i.pinimg.com/474x/06/fe/b6/06feb6b9e87fee622b4d217567e9966e.jpg" height="190px" width="180px"> </a>
+    </div>
+   
+    <!--barra de navegação lateral-->
+    <div class="sidebar">
+         
+         <ul class="lista">
+          <li> <a class="link"  href="#avocado">Avocado toast com dukkah e picles de cebola-roxa</a> </li> <br> 
+          <li> <a class="link"  href="#strogonoff">Strogonoff vegano</a></li> <br>
+          <li> <a class="link"  href="#info">Informações nutricionais</a></li> <br>
+         </ul>
+    </div>
+       
+
+    <main>
+ 
+    <!--Título principal/Main title-->
+    <h1 class="titulo">Sua cozinha-vegana <span><img id="veg.pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb-x-xd77rkTni37zonoHZEsE7t5I9FAMCdQ&usqp=CAU" width="200px" height="100px"></span></h1>
+    
+    <p>O veganismo tem sido adotado por cada vez mais pessoas ao redor do mundo, que procuram um estilo de vida mais sustentável e equilibrado. Se você é vegano, ou quer experimentar uma comidinha especial, segue essa lista com receitas de comida vegana fáceis e simples:</p>
+
+    <!--Início tópico avocado toast // Avocado toast's beginning -->
+    <h2 id="avocado">Avocado toast com dukkah e picles de cebola-roxa</h2>
+    <img class="imag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbNgro18LaDqlwOCaU_epj3dGkpWTDbg90yw&usqp=CAU" height="150px" width="250px">
+    <p> A torrada desta receita é feita com um pão de fermentação natural. E além do abacate, o preparo leva um delicioso dukkah, repleto de castanhas, pimentas e gergelim, e um picles de cebola-roxa. 
+        O sabor cítrico fica por conta do limão-siciliano.</p>
+    
+
+    <iframe width="550" height="300" src="https://www.youtube.com/embed/QHlv1-yqwMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!--Fim tópico avocado toast // Avocado toast's ending -->
+
+    <!--Início tópico strogonoff // Vegan strogonoff's beginning -->
+    <h2 id="strogonoff"> Strogonoff vegano</h2>
+    <img class="imag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZFiPRSFOoxG1VUNUix9iniR7N9kNUq4uew&usqp=CAU" height="150px" width="250px">
+
+    <p> Esta receita é um prato para o dia a dia que se parece muito com o tradicional normal, todo mundo vai adorar!
+        Essa versão usa castanhas hidratadas e processadas para substituir o creme de leite, e cogumelos no lugar da carne: garante muito sabor e nutrição. Veja todos os ingredientes e o passo a passo acima.</p>
+
+        <iframe width="550" height="300" src="https://www.youtube.com/embed/yVhTVJOUIec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!--Fim tópico strogonoff // Vegan strogonoff's ending -->
+    
+    <!--Tabela nutricional // Nutritional info's table-->
+    <table border="2"  class="tabela2">
+       <h2 id="info">Informações nutricionais</h2>
+         <tr> 
+          <th>Prato</th>
+          <th>Quantidade</th>
+          <th>Info. nutricional</th>
+        </tr>
+
+        <tr>
+            <td>Avocado toast </td>
+            <td>300g</td>
+            <td>250g CHO/ 25g de proteína e 25g de gordura</td>
+        </tr>
+
+        <tr>
+            <td>Strogonoff</td>
+            <td>250g</td>       
+            <td>150g CHO/ 75g de proteína e 25g de gordura</td>
+        
+        </tr>
+    </table> <br> <br>
+
+    <!--Formulário cadastro para novo conteúdo // form to sign to new content-->
+    <h3>Caso queira receber informações semanais, cadastre-se no nosso site em:</h3>
+    
+    <p id="obrigatorio">Os campos contendo * são obrigatórios.</p>
+    
+    <form action="/action_page.php" method="get">
+        <p><label for="fname">Nome*:</label> <input class="cadastro" type="text" id="fname" name="fname" placeholder="Primeiro nome"></p> 
+
+        <p><label for="lname">Sobrenome:</label> <input class="cadastro" type="text" id="lname" name="lname" placeholder="Sobrenome"> </p>
+            
+        <p><label for="emailad"> E-mail*: </label><input class="cadastro" type="email" id="emailad" name="email adresss" placeholder="Email" required> <br> <br>
+            
+        <button id="botao" type="submit">Cadastrar-se</button>
+            
+    </form>
+    </main>
+
+    <footer>
+        <i>Obrigado por visitar nosso site, mais informações em <a href="mailto:cartur758@gmail.com" target="_blank"><abbr title="enviar email para:">cartur758@gmail.com</abbr></a></i>
+      <br><br>
+     </footer>
+</body>
+
+</html>
